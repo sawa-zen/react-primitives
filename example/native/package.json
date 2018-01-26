@@ -4,11 +4,13 @@
 	"private": true,
 	"scripts": {
 		"start": "node node_modules/react-native/local-cli/cli.js start",
+		"ios": "node node_modules/react-native/local-cli/cli.js run-ios",
 		"test": "jest"
 	},
 	"dependencies": {
-		"react": "15.4.1",
-		"react-native": "0.39.2"
+		"react": "^16.2.0",
+		"react-native": "^0.52.1",
+		"react-primitives": "file:../../"
 	},
 	"devDependencies": {
 		"babel-jest": "17.0.2",
